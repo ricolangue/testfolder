@@ -1,0 +1,14 @@
+Git Server 2:
+git clone git@54.151.217.16:councilofor463.git
+
+Git Server 3:
+git clone git@54.254.220.89:councilofor463.git
+
+git add . && git commit -m ' XXX - BU' && git push origin master
+
+git add . && git commit -m ' XXX- UP' && git push origin master
+
+
+echo 's3://proweaver-files/TECH/Abiatech Solutions/Version 2/screenshot/' | sed -r 's/^.{5}//'
+
+echo sed -i -e "s/ricola/admin/g" /google.com.txt
