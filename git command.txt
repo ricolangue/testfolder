@@ -1,14 +1,68 @@
-Git Server 2:
-git clone git@54.151.217.16:councilofor463.git
+Set up your new local machine for git config and ssh connection (One time process only)
 
-Git Server 3:
-git clone git@54.254.220.89:councilofor463.git
+1. Check your username and email if configured correctly
+        - git config --list
+2. Setting up git config (For author or Identification of user)
+        - git config --global user.email "yourwebmailaddress"
+		git config --global user.email "ricolangue@gmail.com"
+        - git config --global user.name "yourname"
+		git config --global user.name "ricolangue"
+		
+ssh-keygen -t rsa
 
-git add . && git commit -m ' XXX - BU' && git push origin master
+Versioning your project using git repository:
 
-git add . && git commit -m ' XXX- UP' && git push origin master
+1. For new project (Two ways)
+		1. By CREATING empty git on your project folder
+			- git init // will initialize empty git
+			- git remote add origin mailto:git@54.255.101.170:folder.git// will add remote url of repo server
+			git remote add origin mailto:git@54.255.101.170:folder.git
+			
+			- git add . // add all filesc
+			- git commit -m 'taskid' // commit all files added
+			- git push origin master // upload all files to repo server
+		2. By CLONING empty git from repo server
+			- git clone git@54.255.101.170:
+			- git add . // add all files
+			- git commit -m 'taskid' // commit all files added
+			- git push origin master // upload all files to repo server
+			
+			git add . && git commit -m ' https://github.com/ricolangue/testfolder.git - bu' && git push origin master
+			git add . && git commit -m ' https://github.com/ricolangue/testfolder.git - up' && git push origin master
+			git add . && git commit -m ' https://github.com/ricolangue/newformTemp.git - UP' && git push origin master
+			git add . && git commit -m ' https://github.com/ricolangue/newformTemp.git - ./newformTemp/screenshot' && git push origin master
+			
+			git add . && git commit -m ' https://github.com/ricolangue/newformTemp.git- up
+			
+			git push  https://github.com/ricolangue/newformTemp.git - up' && git push origin main
+
+	http://127.0.0.1:49224/?code=25131f77f03cebb2aaa7&state=45f80963f48a4ce9983796ca28957946
+
+	2. For existing project (Modifications)
+		- git pull origin master // make your project folder up-to-date
+		- git status // check if you have modified files on your project folder
+		
+		If there is/are modified file(s):
+			- git add . // add all modified files
+			- git commit -m 'taskid' // commit all modified files
+			- git push origin master // upload all modified files to repo server
+		
+		To view all commits:
+			- git log
+		
+		To view file committed:
+			- git show commitid:filepath	
+			
+			
+GIT FILEPATH: git@54.255.101.170:xx
 
 
-echo 's3://proweaver-files/TECH/Abiatech Solutions/Version 2/screenshot/' | sed -r 's/^.{5}//'
+git init
+git add project_folder
+git commit -m "Adding new Project"
+git remote add origin https://github.com/yourUsername/yourRepository.git
+git push -u -f origin master
 
-echo sed -i -e "s/ricola/admin/g" /google.com.txt
+git add my_cool_folder
+git commit -m "I added my_cool_folder"
+git push
