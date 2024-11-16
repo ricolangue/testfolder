@@ -1,0 +1,18 @@
+Client Name: test24
+task_link=https://office.orchestra.tools/tasks/viewtask/324324
+website=https://www.test24.com
+#==== START DATABASE =====
+db_link=https://www.proweaversite7.com/jvlmysql/
+db_name=w8024
+db_username=w8024
+db_password=1g4SOCZcdiDFGFw4
+#==== END DATABASE =====
+                     
+#==== START FTP =====
+ftp_hostname=proweaversite7.com
+ftp_username=w8024
+ftp_password=lRBcMuHzL6hUamKv
+#==== END FTP =====
+                     
+#==== SCREENSHOT FILE PATH =====
+scrn_path=

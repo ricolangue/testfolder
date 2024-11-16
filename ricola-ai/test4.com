@@ -1,0 +1,13 @@
+client_web=test4.com
+task_ID=dfdsfdslfds
+task_link=https://office.orchestra.tools/tasks/viewtask/dfdsfdslfds
+scrn_directory=C:\Users\User\Downloads\template3\Web-Accounts\PDQA-FORM\NOVEMBER\11-15-2024\test4.com\screenshot
+client_dir=C:\Users\User\Downloads\template3\Web-Accounts\PDQA-FORM\NOVEMBER\11-15-2024\test4.com
+db_link=dlddddddddddddddddddd
+db_name=sssssssssssssssss
+db_server=eeeeeeeeee
+db_username=ssssssssssss
+db_password=dddfd
+ftp_hostname=fds
+ftp_username=ddfssssssssssssss
+ftp_password=dddddddddddds

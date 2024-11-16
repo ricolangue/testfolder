@@ -1,0 +1,12 @@
+client_web=earnesteps.com
+task_ID=177481000
+task_link=https://office.orchestra.tools/tasks/viewtask/177481000
+scrn_directory=C:\Users\User\Downloads\RICLANGUE-FILES-ai-final-v11082024658\Web-Accounts\CUSTOM-BLOG\NOVEMBER\11-09-2024\earnesteps.com\screenshot
+client_dir=C:\Users\User\Downloads\RICLANGUE-FILES-ai-final-v11082024658\Web-Accounts\CUSTOM-BLOG\NOVEMBER\11-09-2024\earnesteps.com
+db_link=https://ip-52-9-179-164.proweaverhosting.com:2083/cpsess7712338642/3rdparty/phpMyAdmin/index.php
+db_name=earnstps_earnestpsol2019
+db_username=earnstps_erderlypsdb
+db_password=3rN3AstePsol*19
+ftp_hostname=52.9.179.164
+ftp_username=earnstps
+ftp_password=aM422E#nrWTRtpflrOR
